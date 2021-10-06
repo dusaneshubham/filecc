@@ -31,7 +31,7 @@
                                     </li>
                                     <li>
                                         <i class="far fa-file-image" style="color: wheat;"></i>
-                                        <a class="dropdown-item text-white" href="#">PDF to JPG</a>
+                                        <a class="dropdown-item text-white" href="converter.php?in=PDF&out=JPG">PDF to JPG</a>
                                     </li>
                                     <li>
                                         <i class="far fa-file-image" style="color: wheat;"></i>
