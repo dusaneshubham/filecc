@@ -1,0 +1,36 @@
+nav {
+    font-size: 17px;
+}
+
+#navbar-ul li {
+    padding: 0 10px;
+}
+
+.tools-sub-menu-sub-div {
+    width: 300px;
+}
+
+.tools-sub-menu-sub-div h5 {
+    color: bisque !important;
+}
+
+.tools-sub-menu-sub-div ul {
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.tools-sub-menu-sub-div ul li {
+    display: flex;
+    margin: 5px 0;
+}
+
+.tools-sub-menu-sub-div i {
+    font-size: 20px;
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
+}
+
+.dropdown-item:hover {
+    background-color: #17a2b8;
+}

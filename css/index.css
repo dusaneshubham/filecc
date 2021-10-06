@@ -1,0 +1,49 @@
+.converter-div {
+    width: 100%;
+    margin: 30px 0;
+}
+
+.converter-div h3 {
+    text-align: center;
+}
+
+.converters {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 60px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.tool-div {
+    width: 190px;
+    height: 140px;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.converters a {
+    margin: 20px;
+}
+
+.tool-div:hover {
+    background-color: rgb(241, 233, 233);
+}
+
+.tool-div i {
+    font-size: 40px;
+}
+
+.converters a {
+    text-decoration: none;
+}
+
+.converters p {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 17px;
+    margin-top: 10px;
+}
