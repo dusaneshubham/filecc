@@ -101,6 +101,7 @@
                 <input id="input-file" type="file" hidden>
 
                 <button id="convert-btn" class="display-none button">Convert</button>
+                <button id="download-btn" class="display-none button"><a href="" id="download-anchor">Download</a></button>
 
             </div>
         </div>

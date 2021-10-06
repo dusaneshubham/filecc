@@ -57,8 +57,10 @@
 }
 
 #choose-file-btn,
-#convert-btn {
+#convert-btn,
+#download-btn {
     text-transform: uppercase;
+    text-decoration: none;
     width: 450px;
     padding: 8px 0;
     font-size: 20px;
@@ -71,12 +73,21 @@
     background: linear-gradient(135deg, #287ff0 0%, #8546f1 100%);
 }
 
+#download-anchor {
+    color: white;
+    text-decoration: none;
+}
+
 #choose-file-btn {
     margin: 30px auto 15px auto;
 }
 
 #convert-btn {
     margin: 15px auto 15px auto;
+}
+
+#download-btn {
+    margin: 30px auto 30px auto;
 }
 
 

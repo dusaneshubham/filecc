@@ -38,15 +38,19 @@ document.getElementById('input-file').addEventListener('change', (e) => {
                 let anchorsDiv = document.getElementById('anchors');
 
                 for (let i = 0; i < result.files.length; i++) {
-                    let outputImage = document.createElement('a');
-                    let txtNode = document.createTextNode('Downlaod');
-                    outputImage.appendChild(txtNode);
-                    outputImage.setAttribute('href', result.files[i].Url);
-                    outputImage.setAttribute('id', 'download-btn');
-                    // outputImage.setAttribute('style', 'text-decoration: none ;text-transform: uppercase;width: 450px;padding: 8px 0;font-size: 20px;border-radius: 25px;color: #fff;border: none;outline: none;letter - spacing: 1 px; cursor: pointer; background: linear - gradient(135 deg, #287ff0 0%, # 8546f1 100%);');
-                    anchorsDiv.appendChild(outputImage);
-                    console.log(outputImage);
-                    // outputImage.innerHTML = result.files[i].Url + '</br>';
+
+                    const downloadBtn = document.getElementById('download-btn');
+                    const downloadAnchor = document.getElementById('download-anchor');
+                    const chooseFileBtn = document.getElementById('choose-file-btn');
+                    const convertBtn = document.getElementById('convert-btn');
+
+                    downloadAnchor.setAttribute('href', result.files[i].Url);
+                    downloadBtn.classList.remove('display-none');
+                    downloadBtn.classList.add('display-block');
+                    chooseFileBtn.classList.add('display-none');
+                    convertBtn.classList.add('display-none');
+                    convertBtn.classList.remove('display-block');
+                    console.log(downloadAnchor, downloadBtn);
                 }
                 console.log(anchorsDiv);
                 elResult.style.display = 'block'
