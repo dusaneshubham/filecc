@@ -27,7 +27,7 @@
                                 <ul>
                                     <li>
                                         <i class="far fa-file-word" style="color: rgb(59, 127, 230);"></i>
-                                        <a class="dropdown-item text-white" href="#">PDF to WORD</a>
+                                        <a class="dropdown-item text-white" href="converter.php?in=PDF&out=WORD">PDF to WORD</a>
                                     </li>
                                     <li>
                                         <i class="far fa-file-image" style="color: wheat;"></i>
@@ -35,15 +35,15 @@
                                     </li>
                                     <li>
                                         <i class="far fa-file-image" style="color: wheat;"></i>
-                                        <a class="dropdown-item text-white" href="#">PDF to PNG</a>
+                                        <a class="dropdown-item text-white" href="converter.php?in=PDF&out=PNG">PDF to PNG</a>
                                     </li>
                                     <li>
                                         <i class="far fa-file-alt" style="color: rgba(255,255,255,0.8);"></i>
-                                        <a class="dropdown-item text-white" href="#">PDF to TXT</a>
+                                        <a class="dropdown-item text-white" href="converter.php?in=PDF&out=TXT">PDF to TXT</a>
                                     </li>
                                     <li>
                                         <i class="far fa-file-powerpoint " style="color: orange"></i>
-                                        <a class="dropdown-item text-white" href="#">PDF to PPT</a>
+                                        <a class="dropdown-item text-white" href="converter.php?in=PDF&out=PPT">PDF to PPT</a>
                                     </li>
                                 </ul>
                             </div>
@@ -53,15 +53,15 @@
                                 <ul>
                                     <li>
                                         <i class="far fa-file-image" style="color: wheat;"></i>
-                                        <a class="dropdown-item text-white" href="#">Image to All Image Type</a>
+                                        <a class="dropdown-item text-white" href="converter.php?in=Image&out=All Image type">Image to All Image Type</a>
                                     </li>
                                     <li>
                                         <i class="far fa-file-pdf text-danger"></i>
-                                        <a class="dropdown-item text-white" href="#">Image to PDF</a>
+                                        <a class="dropdown-item text-white" href="converter.php?in=Image&out=PDF">Image to PDF</a>
                                     </li>
                                     <li>
                                         <i class="far fa-file-powerpoint " style="color: orange"></i>
-                                        <a class="dropdown-item text-white" href="#">Image to PPT</a>
+                                        <a class="dropdown-item text-white" href="converter.php?in=Image&out=PPT">Image to PPT</a>
                                     </li>
                                 </ul>
                             </div>
@@ -71,27 +71,27 @@
                                 <ul>
                                     <li>
                                         <i class="far fa-file-pdf text-danger"></i>
-                                        <a class="dropdown-item text-white" href="#">WORD to PDF</a>
+                                        <a class="dropdown-item text-white" href="converter.php?in=WORD&out=PDF">WORD to PDF</a>
                                     </li>
                                     <li>
                                         <i class="far fa-file-image" style="color: wheat;"></i>
-                                        <a class="dropdown-item text-white" href="#">WORD to JPG</a>
+                                        <a class="dropdown-item text-white" href="converter.php?in=WORD&out=JPG">WORD to JPG</a>
                                     </li>
                                     <li>
                                         <i class="far fa-file-image" style="color: wheat;"></i>
-                                        <a class="dropdown-item text-white" href="#">WORD to PNG</a>
+                                        <a class="dropdown-item text-white" href="converter.php?in=WORD&out=PNG">WORD to PNG</a>
                                     </li>
                                     <li>
                                         <i class="far fa-file" style="color: rgba(255,255,255,0.8);"></i>
-                                        <a class="dropdown-item text-white" href="#">WORD to TIFF</a>
+                                        <a class="dropdown-item text-white" href="converter.php?in=WORD&out=TIFF">WORD to TIFF</a>
                                     </li>
                                     <li>
                                         <i class="far fa-file-code" style="color: rgb(180, 204, 153)"></i>
-                                        <a class="dropdown-item text-white" href="#">WORD to HTML</a>
+                                        <a class="dropdown-item text-white" href="converter.php?in=WORD&out=HTML">WORD to HTML</a>
                                     </li>
                                     <li>
                                         <i class="far fa-file-alt" style="color: rgba(255,255,255,0.8);"></i>
-                                        <a class="dropdown-item text-white" href="#">WORD to TXT</a>
+                                        <a class="dropdown-item text-white" href="converter.php?in=WORD&out=TXT">WORD to TXT</a>
                                     </li>
                                 </ul>
                             </div>
@@ -101,19 +101,19 @@
                                 <ul>
                                     <li>
                                         <i class="far fa-file-pdf text-danger"></i>
-                                        <a class="dropdown-item text-white" href="#">PPT to PDF</a>
+                                        <a class="dropdown-item text-white" href="converter.php?in=PPT&out=PDF">PPT to PDF</a>
                                     </li>
                                     <li>
                                         <i class="far fa-file-image" style="color: wheat;"></i>
-                                        <a class="dropdown-item text-white" href="#">PPT to JPG</a>
+                                        <a class="dropdown-item text-white" href="converter.php?in=PPT&out=JPG">PPT to JPG</a>
                                     </li>
                                     <li>
                                         <i class="far fa-file-image" style="color: wheat;"></i>
-                                        <a class="dropdown-item text-white" href="#">PPT to PNG</a>
+                                        <a class="dropdown-item text-white" href="converter.php?in=PPT&out=PNG">PPT to PNG</a>
                                     </li>
                                     <li>
                                         <i class="far fa-file" style="color: rgba(255,255,255,0.8);"></i>
-                                        <a class="dropdown-item text-white" href="#">PPT to TIFF</a>
+                                        <a class="dropdown-item text-white" href="converter.php?in=PPT&out=TIFF">PPT to TIFF</a>
                                     </li>
                                 </ul>
                             </div>
